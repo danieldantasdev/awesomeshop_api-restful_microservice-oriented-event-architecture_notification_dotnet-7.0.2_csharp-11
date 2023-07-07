@@ -18,4 +18,13 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AwesomeShop.Services.Notifications.Application\AwesomeShop.Services.Notifications.Application.csproj" />
+      <ProjectReference Include="..\AwesomeShop.Services.Notifications.Infrastructure\AwesomeShop.Services.Notifications.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+    </ItemGroup>
+
 </Project>

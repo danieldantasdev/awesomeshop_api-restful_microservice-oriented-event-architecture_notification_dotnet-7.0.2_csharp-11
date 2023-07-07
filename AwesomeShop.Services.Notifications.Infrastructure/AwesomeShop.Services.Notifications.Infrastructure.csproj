@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
+      <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+      <PackageReference Include="SendGrid.Extensions.DependencyInjection" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AwesomeShop.Services.Notifications.Core\AwesomeShop.Services.Notifications.Core.csproj" />
+    </ItemGroup>
+
 </Project>
