@@ -9,7 +9,7 @@ A arquitetura do AwesomeShop, sistema de e-commerce baseado na arquitetura de mi
 - [API Gateway](https://github.com/danieldantasdev/awesomeshop_microservice_apigateway_dotnet-7.0.2)
 
 ## Tecnologias, práticas e arquitetura utilizadas
-- ASP.NET Core com .NET 5
+- ASP.NET Core com .NET 7.0.2
 - Arquitetura de Microsserviços
 - Princípios do Domain-Driven Design
 - MongoDB
